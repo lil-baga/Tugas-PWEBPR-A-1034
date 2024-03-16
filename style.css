@@ -239,6 +239,7 @@ body{
     font-size: 20px; 
     text-align: center; 
     font-weight: 500;
+    margin-left: -6px;
 }
 
 .font4 {
