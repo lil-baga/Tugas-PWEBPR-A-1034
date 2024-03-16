@@ -686,6 +686,7 @@ body{
         border-style: none;
         border-color: none;
         border-width: 0;
+        margin-top: 60px;
         width: 289px;
         height: 211px;
         margin-left: 0;
@@ -701,7 +702,7 @@ body{
         height: 211px;
         margin-top: 30px;
         margin-left: 0;
-        margin-bottom: 120px;
+        margin-bottom: 160px;
     }
     
     .pembalap img, .astronot img {
