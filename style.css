@@ -1,0 +1,762 @@
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container {
+    margin: 0;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    width: 100%;
+    max-height: 50px;
+    padding-block: 1rem;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+}
+
+.nav-list ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem 1rem;
+}
+
+.nav-list li {
+    list-style-type: none;
+}
+
+.nav-list li a { 
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #000000;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-list li:hover a {
+    color: #5b5b5b;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.container-besar{
+    margin-inline: 130px;
+    margin-block: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content1 {
+    display: flex;
+    align-items:flex-end;
+    flex-direction: row;
+    border-radius: 20px;;
+    background-color: #d5ffdd;
+    width: 490px;
+    height: 180px;
+}
+
+.tentara {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.tentara button {
+    width: 240px;
+    height: 37px;
+    margin-bottom: 10px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: #399349;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.tentara button:hover {
+    border: 3px solid #399349;
+    color: #399349;
+    background-color: white;
+    font-weight: 400;
+}
+
+.font0{
+    font-size: 32px; 
+    font-weight: 500; 
+    margin-bottom: -10px
+}
+
+.font1{
+    font-size: 14px; 
+    font-weight: 500; 
+    margin-bottom: 50px;
+}
+
+.content2 {
+    flex: 0.8;
+    display: flex;
+    flex-direction: row;
+}
+
+.nelayan{
+    margin-top: 30px;
+    display: flex;
+    border-radius: 20px;;
+    background-color: #FFF4DC;
+    width: 235px;
+    height: 180px;
+}
+
+.nelayan img{
+    margin-top: 10px;
+    margin-left: 2rem;
+}
+
+.nelayan button{
+    width: 173px;
+    height: 37px;
+    margin-left: -176px;
+    border: 3px solid transparent;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 1rem;
+    background-color: #e29a00;
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin-top: 140px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  
+}
+
+.nelayan button:hover {
+    border: 3px solid #e29a00;
+    color: #e29a00;
+    background-color: white;
+    font-weight: 400;
+}
+
+.pramugari{
+    margin-top: 30px;
+    display: flex;
+    border-radius: 20px;;
+    background-color: #FFCED7;
+    width: 235px;
+    height: 180px;
+}
+
+.pramugari img{
+    margin-top: 10px;
+    margin-left: 2.5rem;
+}
+
+.pramugari button{
+    width: 173px;
+    height: 37px;
+    margin-left: -164px;
+    border: 3px solid transparent;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 1rem;
+    background-color: #FF5573;
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin-top: 140px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  
+}
+
+.pramugari button:hover {
+    border: 3px solid #FF5573;
+    color: #FF5573;
+    background-color: white;
+    font-weight: 400;
+}
+
+.fotografer {
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;;
+    background-color: #E2F2FF;
+    width: 230px;
+    height: 392px;
+}
+
+.fotografer img {
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 32px;
+}
+
+.fotografer button{
+    width: 150px;
+    margin-left: 40px;
+    border: 3px solid transparent;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 1rem;
+    background-color: #3279AF;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  
+}
+
+.fotografer button:hover {
+    border: 3px solid #3279AF;
+    color: #3279AF;
+    background-color: white;
+    font-weight: 400;
+}
+
+.font3 {
+    font-size: 20px; 
+    text-align: center; 
+    font-weight: 500;
+}
+
+.font4 {
+    font-size: 12px; 
+    text-align: center; 
+    font-weight: 500; 
+    margin-top: -20px; 
+    margin-left: 42px; 
+    margin-bottom: 20px; 
+    width: 140px;
+}
+
+.container-kanan {
+    width: 500px;
+    height: 612px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    width: 500px;
+    height: 392px;
+    padding: 40px;
+}
+
+.dokter {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #D8D6C1;
+    border-width: 1px;
+    width: 423px;
+    height: 96px;
+}
+
+.pilot, .ilmuwan {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #D8D6C1;
+    border-width: 1px;
+    width: 423px;
+    height: 96px;
+    margin-top: 20px;
+}
+
+.dokter img, .pilot img, .ilmuwan img {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.font5 {
+    font-size: 20px; 
+    margin-top: -70px; 
+    margin-left: 90px; 
+    font-weight: 500;
+}
+
+.dokter button, .pilot button, .ilmuwan button {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    margin-left: 85px;
+    margin-top: -12px;
+    border: 2px solid transparent;
+    font-weight: 300;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    background-color: #D8D6C1;
+    color: white;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.dokter button:hover, .pilot button:hover, .ilmuwan button:hover {
+    border: 2px solid #D8D6C1;
+    color: #D8D6C1;
+    background-color: white;
+    font-weight: 300;
+}
+
+.content4 {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    width: 500px;
+    height: 180px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.pembalap, .astronot {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px ;
+}
+
+.pembalap img, .astronot img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+}
+
+.font6 {
+    font-size: 15px;
+    margin-top: 60px; 
+    font-weight: 500;
+}
+
+.pembalap button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+    margin-left: -80px;
+    width: 100px;
+    height: 55px;
+    border: 3px solid transparent;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 1rem;
+    background-color: #D8D6C1;
+    color: white;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.astronot button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+    margin-left: -70px;
+    width: 100px;
+    height: 55px;
+    border: 3px solid transparent;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 1rem;
+    background-color: #D8D6C1;
+    color: white;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.pembalap button:hover, .astronot button:hover {
+    border: 2px solid #D8D6C1;
+    color: #D8D6C1;
+    background-color: white;
+    font-weight: 00;
+}
+
+@media (max-width: 425px) {
+    .nav-container {
+        flex-wrap: wrap;
+        top: auto;
+        bottom: 0;
+    }
+
+    .nav-list li a {
+        font-size: 13px;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+    
+    .container-besar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-kiri {
+        display: flex;
+        margin-left: 60px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;   
+    }
+    
+    .content1 {
+        width: 289px;
+        height: 299px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tentara {
+        align-items: center;
+    }
+    
+    .content1 img {
+        margin-top: -70px;
+    }
+    
+    .tentara button {
+        display: flex;
+        width: 210px;
+        height: 45px;
+        margin-top: -160px ;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 400;
+        background-color: #399349;
+        color: white;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+    }
+    
+    .font0 {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    
+    .font1 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .content2 {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nelayan{
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;;
+        background-color: #FFF4DC;
+        width: 289px;
+        height: 221px;
+    }
+    
+    .nelayan img {
+        width: fit-content;
+        margin-left: 40px;
+        margin-bottom: -196px;
+    }
+    
+    .nelayan button{
+        display: flex;
+        width: 210px;
+        height: 45px;
+        margin-left: 40px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: #e29a00;
+        color: white;
+        z-index: 1;
+        margin-top: 140px;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+    }    
+    
+    .pramugari{
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;;
+        background-color: #FFCED7;
+        width: 289px;
+        height: 221px;
+    }
+    
+    .pramugari img {
+        width: 197px;
+        margin-top: 8px;
+        margin-left: 46px;
+        margin-bottom: -204px;
+    }
+    
+    .pramugari button{
+        display: flex;
+        width: 210px;
+        height: 45px;
+        margin-left: 40px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: #FF5573;
+        color: white;
+        z-index: 1;
+        margin-top: 140px;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+    }    
+    
+    .fotografer {
+        margin: 0;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;;
+        width: 289px;
+        height: 314px;
+    }
+    
+    .fotografer img {
+        width: 230px;
+        margin-top: -40px;
+        margin-right: 30px;
+        
+    }
+    
+    .fotografer button {
+        display: flex;
+        width: 210px;
+        height: 45px;
+        margin-top: -152px ;
+        margin-right: 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 400;
+        background-color: #3279AF;
+        color: white;
+        position: relative;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+    }
+    
+    .font4 {
+        font-size: 12px; 
+        text-align: center; 
+        font-weight: 500; 
+        margin-top: -20px; 
+        margin-left: 0; 
+        margin-bottom: 20px; 
+        width: 140px;
+    }
+    
+    .container-kanan {
+        display: flex;
+        margin-left: 60px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;   
+    }
+    
+    .content3 {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin: 0;
+        margin-top: 560px;
+        padding: 30px;
+        width: 425px;
+        height: 900px;
+    }    
+    
+    .dokter, .pilot, .ilmuwan {
+        background-color: #E9E8E2;
+        border-radius: 20px;
+        border-style: none;
+        border-color: none;
+        border-width: 0;
+        width: 289px;
+        height: 211px;
+        margin-top: 30px;
+    }
+    
+    .dokter img, .pilot img, .ilmuwan img {
+        width: 200px;
+        margin-left: 46px;
+        margin-bottom: -192px;
+    }
+    
+    .dokter button, .pilot button, .ilmuwan button {
+        display: flex;
+        width: 210px;
+        height: 45px;
+        margin-left: 40px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: #CAC8B3;
+        color: white;
+        z-index: 1;
+        margin-top: 200px;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+    }
+    
+    .font5 {
+        font-size: 0px; 
+    }
+    
+    .content4 {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin: 0;
+        margin-top: 20px;
+        height: 500px;
+    }
+    
+    .pembalap {
+        background-color: #FFDBC5;
+        border-radius: 20px;
+        border-style: none;
+        border-color: none;
+        border-width: 0;
+        width: 289px;
+        height: 211px;
+        margin-left: 0;
+    }
+    
+    .astronot {
+        background-color: #8FC5ED;
+        border-radius: 20px;
+        border-style: none;
+        border-color: none;
+        border-width: 0;
+        width: 289px;
+        height: 211px;
+        margin-top: 30px;
+        margin-left: 0;
+        margin-bottom: 90px;
+    }
+    
+    .pembalap img, .astronot img {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 200px;
+        margin-left: 46px;
+        margin-top: 10px;
+    }
+    
+    .pembalap button {
+        display: flex;
+        width: 210px;
+        height: 45px;
+        margin-left: -206px;
+        margin-top: 156px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: #E36415;
+        color: white;
+        z-index: 1;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+    }
+    
+    .pembalap button:hover {
+        border: 3px solid #E36415;
+        color: #E36415;
+        background-color: white;
+        font-weight: 400;
+    }
+    
+    .astronot button {
+        display: flex;
+        width: 210px;
+        height: 45px;
+        margin-left: -206px;
+        margin-top: 156px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: #275E87;
+        color: white;
+        z-index: 1;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+    }
+    
+    .astronot button:hover {
+        border: 3px solid #275E87;
+        color: #275E87;
+        background-color: white;
+        font-weight: 400;
+    }
+    
+    .font6 {
+        font-size: 0px; 
+    }
+}
