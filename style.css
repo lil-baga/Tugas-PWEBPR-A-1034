@@ -28,6 +28,7 @@ body{
     padding-left: 0;
     display: flex;
     justify-content: space-between;
+    margin-top: -5px;
     gap: 2rem 1rem;
 }
 
